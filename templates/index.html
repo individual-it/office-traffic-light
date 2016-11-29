@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if choice_list %}
+    <ul class="nav nav-tabs nav-stacked">
+
+    {% for choice in choice_list %}
+        <li><a href={% url 'signallight:select' choice.id %}>{{ choice.choice_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No data available.</p>
+{% endif %}
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+{% endblock %}
