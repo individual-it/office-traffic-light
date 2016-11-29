@@ -8,6 +8,10 @@ So I thought I could achieve the goal the geek way, so I have build a mechanical
 
 Just using the stepper with an arm as indicator and programmed a web-interface with django. The django framework might be over-kill for the task but I used the chance to look into django.
 
+![mechanical office indicator](https://raw.githubusercontent.com/individual-it/office-traffic-light/master/finished.jpg)
+
+Check that video: https://raw.githubusercontent.com/individual-it/office-traffic-light/master/how_it_works.mp4
+
 ## hardware
 
 1. find an old FDD drive, open it and attach somehow the arm to the stepper
@@ -19,6 +23,8 @@ Just using the stepper with an arm as indicator and programmed a web-interface w
 
 - RPI GPIO layout: http://elinux.org/Rpi_Low-level_peripherals#Interfacing_with_GPIO_pins
 - FDD PIN layout: http://www.interfacebus.com/PC_Floppy_Drive_PinOut.html
+
+![open up the office traffic light](https://raw.githubusercontent.com/individual-it/office-traffic-light/master/open.jpg)
 
 I'm using one of the very old RPI-1 B models. And it works fine
 
